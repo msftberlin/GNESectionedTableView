@@ -29,7 +29,7 @@
 //  SOFTWARE.
 //
 
-#import "GNESectionedTableView.h"
+#import <GNESectionedTableView/GNESectionedTableView.h>
 
 @interface GNETableViewDataSource : NSObject <GNESectionedTableViewDataSource, GNESectionedTableViewDelegate>
 
