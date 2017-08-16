@@ -4,9 +4,4 @@
 //  The contents of this file are implicitly included at the beginning of every source file.
 //
 
-#ifdef __OBJC__
-    @import Cocoa;
-    @import QuartzCore;
-    #import "NSMutableArray+GNESectionedTableView.h"
-    #import "NSIndexPath+GNESectionedTableView.h"
-#endif
+

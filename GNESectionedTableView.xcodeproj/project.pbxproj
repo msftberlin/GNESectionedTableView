@@ -159,7 +159,6 @@
 		57BC90811A48A58F0016C8A4 /* GNEOrderedIndexSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNEOrderedIndexSet.m; sourceTree = "<group>"; };
 		57D3C5111AD2F2B500E4A237 /* GNESectionedTableViewHeightTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNESectionedTableViewHeightTests.m; sourceTree = "<group>"; };
 		B58AACBE1F449D7700ADF07E /* GNESectionedTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GNESectionedTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B58AACC11F449D7700ADF07E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,8 +207,7 @@
 				572E26C71945676B000F4656 /* NSIndexPath */,
 				572E26CA1945676B000F4656 /* NSOutlineView */,
 			);
-			name = "Cocoa Categories";
-			path = "../GNESectionedTableView/Classes/Sectioned Table View/Cocoa Categories";
+			path = "Cocoa Categories";
 			sourceTree = "<group>";
 		};
 		572E26C71945676B000F4656 /* NSIndexPath */ = {
@@ -238,8 +236,7 @@
 				572E26D01945676B000F4656 /* GNEOutlineViewParentItem.h */,
 				572E26D11945676B000F4656 /* GNEOutlineViewParentItem.m */,
 			);
-			name = "Outline View Items";
-			path = "../GNESectionedTableView/Classes/Sectioned Table View/Outline View Items";
+			path = "Outline View Items";
 			sourceTree = "<group>";
 		};
 		572E26D21945676B000F4656 /* Views */ = {
@@ -248,8 +245,7 @@
 				572E26D31945676B000F4656 /* GNESectionedTableView.h */,
 				572E26D41945676B000F4656 /* GNESectionedTableView.m */,
 			);
-			name = Views;
-			path = "../GNESectionedTableView/Classes/Sectioned Table View/Views";
+			path = Views;
 			sourceTree = "<group>";
 		};
 		572E26E0194567D0000F4656 /* Data Sources */ = {
@@ -294,9 +290,9 @@
 		578E756C1934B69E00333D86 = {
 			isa = PBXGroup;
 			children = (
+				B58AACBF1F449D7700ADF07E /* GNESectionedTableView */,
 				578E757E1934B69E00333D86 /* GNESectionedTableViewSampleApp */,
 				578E759C1934B69E00333D86 /* GNESectionedTableViewTests */,
-				B58AACBF1F449D7700ADF07E /* GNESectionedTableView */,
 				578E75771934B69E00333D86 /* Frameworks */,
 				578E75761934B69E00333D86 /* Products */,
 			);
@@ -421,8 +417,7 @@
 				57BC907B1A4829CC0016C8A4 /* GNESectionedTableViewMove.h */,
 				57BC907C1A4829CC0016C8A4 /* GNESectionedTableViewMove.m */,
 			);
-			name = Moves;
-			path = "../GNESectionedTableView/Classes/Sectioned Table View/Moves";
+			path = Moves;
 			sourceTree = "<group>";
 		};
 		57BC907F1A48A5700016C8A4 /* Ordered Index Set */ = {
@@ -431,8 +426,7 @@
 				57BC90801A48A58F0016C8A4 /* GNEOrderedIndexSet.h */,
 				57BC90811A48A58F0016C8A4 /* GNEOrderedIndexSet.m */,
 			);
-			name = "Ordered Index Set";
-			path = "../GNESectionedTableView/Classes/Sectioned Table View/Ordered Index Set";
+			path = "Ordered Index Set";
 			sourceTree = "<group>";
 		};
 		B58AACBF1F449D7700ADF07E /* GNESectionedTableView */ = {
@@ -443,10 +437,8 @@
 				572E26CD1945676B000F4656 /* Outline View Items */,
 				57BC90761A48297A0016C8A4 /* Moves */,
 				572E26D21945676B000F4656 /* Views */,
-				B58AACC11F449D7700ADF07E /* Info.plist */,
 			);
-			name = GNESectionedTableView;
-			path = GNESectionedTableViewFramework;
+			path = GNESectionedTableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -782,7 +774,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GNESectionedTableView/GNESectionedTableView-Prefix.pch";
+				GCC_PREFIX_HEADER = "GNESectionedTableViewSampleApp/GNESectionedTableViewSampleApp-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
@@ -817,7 +809,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GNESectionedTableView/GNESectionedTableView-Prefix.pch";
+				GCC_PREFIX_HEADER = "GNESectionedTableViewSampleApp/GNESectionedTableViewSampleApp-Prefix.pch";
 				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
