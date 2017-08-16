@@ -258,8 +258,7 @@
 				572E26EC1945684F000F4656 /* GNETableViewDataSource.h */,
 				572E26ED1945684F000F4656 /* GNETableViewDataSource.m */,
 			);
-			name = "Data Sources";
-			path = "Sample Project/Data Sources";
+			path = "Data Sources";
 			sourceTree = "<group>";
 		};
 		572E26E619456822000F4656 /* View Controllers */ = {
@@ -268,8 +267,7 @@
 				572E26E81945683A000F4656 /* GNETableViewController.h */,
 				572E26E91945683A000F4656 /* GNETableViewController.m */,
 			);
-			name = "View Controllers";
-			path = "Sample Project/View Controllers";
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 		572E26E719456822000F4656 /* Views */ = {
@@ -282,8 +280,7 @@
 				57676F401A0DDFD400901BAD /* GNETableRowView.h */,
 				57676F411A0DDFD400901BAD /* GNETableRowView.m */,
 			);
-			name = Views;
-			path = "Sample Project/Views";
+			path = Views;
 			sourceTree = "<group>";
 		};
 		576BD97E1A49D87800DA1211 /* Ordered Index Set */ = {
@@ -344,8 +341,7 @@
 				578E75901934B69E00333D86 /* Images.xcassets */,
 				578E757F1934B69E00333D86 /* Supporting Files */,
 			);
-			name = GNESectionedTableViewSampleApp;
-			path = GNESectionedTableView;
+			path = GNESectionedTableViewSampleApp;
 			sourceTree = "<group>";
 		};
 		578E757F1934B69E00333D86 /* Supporting Files */ = {
