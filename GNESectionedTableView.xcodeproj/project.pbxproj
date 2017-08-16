@@ -787,7 +787,7 @@
 				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
 				GCC_WARN_UNKNOWN_PRAGMAS = YES;
 				GCC_WARN_UNUSED_PARAMETER = YES;
-				INFOPLIST_FILE = "GNESectionedTableView/GNESectionedTableView-Info.plist";
+				INFOPLIST_FILE = "GNESectionedTableViewSampleApp/GNESectionedTableViewSampleApp-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.goneeast.GNESectionedTableView.${PRODUCT_NAME:rfc1034identifier}";
@@ -821,7 +821,7 @@
 				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
 				GCC_WARN_UNKNOWN_PRAGMAS = YES;
 				GCC_WARN_UNUSED_PARAMETER = YES;
-				INFOPLIST_FILE = "GNESectionedTableView/GNESectionedTableView-Info.plist";
+				INFOPLIST_FILE = "GNESectionedTableViewSampleApp/GNESectionedTableViewSampleApp-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.goneeast.GNESectionedTableView.${PRODUCT_NAME:rfc1034identifier}";
