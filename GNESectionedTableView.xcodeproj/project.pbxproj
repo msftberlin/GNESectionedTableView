@@ -131,10 +131,10 @@
 		578E757B1934B69E00333D86 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		578E757C1934B69E00333D86 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		578E757D1934B69E00333D86 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		578E75801934B69E00333D86 /* GNESectionedTableView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GNESectionedTableView-Info.plist"; sourceTree = "<group>"; };
+		578E75801934B69E00333D86 /* GNESectionedTableViewSampleApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GNESectionedTableViewSampleApp-Info.plist"; sourceTree = "<group>"; };
 		578E75821934B69E00333D86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		578E75841934B69E00333D86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		578E75861934B69E00333D86 /* GNESectionedTableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GNESectionedTableView-Prefix.pch"; sourceTree = "<group>"; };
+		578E75861934B69E00333D86 /* GNESectionedTableViewSampleApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GNESectionedTableViewSampleApp-Prefix.pch"; sourceTree = "<group>"; };
 		578E75881934B69E00333D86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		578E758E1934B69E00333D86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		578E75901934B69E00333D86 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -333,9 +333,9 @@
 			isa = PBXGroup;
 			children = (
 				578E75B01934BC1D00333D86 /* Classes */,
+				578E757F1934B69E00333D86 /* Supporting Files */,
 				578E758D1934B69E00333D86 /* MainMenu.xib */,
 				578E75901934B69E00333D86 /* Images.xcassets */,
-				578E757F1934B69E00333D86 /* Supporting Files */,
 			);
 			path = GNESectionedTableViewSampleApp;
 			sourceTree = "<group>";
@@ -343,11 +343,11 @@
 		578E757F1934B69E00333D86 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				578E75801934B69E00333D86 /* GNESectionedTableView-Info.plist */,
+				578E75871934B69E00333D86 /* Credits.rtf */,
 				578E75811934B69E00333D86 /* InfoPlist.strings */,
 				578E75841934B69E00333D86 /* main.m */,
-				578E75861934B69E00333D86 /* GNESectionedTableView-Prefix.pch */,
-				578E75871934B69E00333D86 /* Credits.rtf */,
+				578E75801934B69E00333D86 /* GNESectionedTableViewSampleApp-Info.plist */,
+				578E75861934B69E00333D86 /* GNESectionedTableViewSampleApp-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
