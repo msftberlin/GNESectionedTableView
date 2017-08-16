@@ -45,6 +45,7 @@
 		57BC907E1A4829CC0016C8A4 /* GNESectionedTableViewMove.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BC907C1A4829CC0016C8A4 /* GNESectionedTableViewMove.m */; };
 		57BC90831A48A58F0016C8A4 /* GNEOrderedIndexSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BC90811A48A58F0016C8A4 /* GNEOrderedIndexSet.m */; };
 		57D3C5121AD2F2B500E4A237 /* GNESectionedTableViewHeightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D3C5111AD2F2B500E4A237 /* GNESectionedTableViewHeightTests.m */; };
+		B550BA4A1F44D3EA00E9CF88 /* GNESectionedTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58AACBE1F449D7700ADF07E /* GNESectionedTableView.framework */; };
 		B58AACC51F449D7700ADF07E /* GNESectionedTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58AACBE1F449D7700ADF07E /* GNESectionedTableView.framework */; };
 		B58AACC61F449D7700ADF07E /* GNESectionedTableView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B58AACBE1F449D7700ADF07E /* GNESectionedTableView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B58AACCB1F449DAD00ADF07E /* NSMutableArray+GNESectionedTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57164A0B194DC2C40083FA03 /* NSMutableArray+GNESectionedTableView.m */; };
@@ -68,11 +69,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		578E759A1934B69E00333D86 /* PBXContainerItemProxy */ = {
+		B550BA481F44D39000E9CF88 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 578E756D1934B69E00333D86 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 578E75741934B69E00333D86;
+			remoteGlobalIDString = B58AACBD1F449D7700ADF07E;
 			remoteInfo = GNESectionedTableView;
 		};
 		B58AACC31F449D7700ADF07E /* PBXContainerItemProxy */ = {
@@ -177,6 +178,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B550BA4A1F44D3EA00E9CF88 /* GNESectionedTableView.framework in Frameworks */,
 				578E75991934B69E00333D86 /* Cocoa.framework in Frameworks */,
 				578E75981934B69E00333D86 /* XCTest.framework in Frameworks */,
 			);
@@ -495,7 +497,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				578E759B1934B69E00333D86 /* PBXTargetDependency */,
+				B550BA491F44D39000E9CF88 /* PBXTargetDependency */,
 			);
 			name = GNESectionedTableViewTests;
 			productName = GNESectionedTableViewTests;
@@ -648,10 +650,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		578E759B1934B69E00333D86 /* PBXTargetDependency */ = {
+		B550BA491F44D39000E9CF88 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 578E75741934B69E00333D86 /* GNESectionedTableViewSampleApp */;
-			targetProxy = 578E759A1934B69E00333D86 /* PBXContainerItemProxy */;
+			target = B58AACBD1F449D7700ADF07E /* GNESectionedTableView */;
+			targetProxy = B550BA481F44D39000E9CF88 /* PBXContainerItemProxy */;
 		};
 		B58AACC41F449D7700ADF07E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
