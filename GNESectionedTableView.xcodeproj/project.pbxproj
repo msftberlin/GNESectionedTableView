@@ -841,7 +841,7 @@
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GNESectionedTableView/GNESectionedTableView-Prefix.pch";
+				GCC_PREFIX_HEADER = "GNESectionedTableViewSampleApp/GNESectionedTableViewSampleApp-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -862,7 +862,7 @@
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GNESectionedTableView/GNESectionedTableView-Prefix.pch";
+				GCC_PREFIX_HEADER = "GNESectionedTableViewSampleApp/GNESectionedTableViewSampleApp-Prefix.pch";
 				INFOPLIST_FILE = "GNESectionedTableViewTests/GNESectionedTableViewTests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.goneeast.GNESectionedTableView.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
