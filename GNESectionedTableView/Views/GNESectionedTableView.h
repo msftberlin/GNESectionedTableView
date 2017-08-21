@@ -526,4 +526,8 @@ didSelectRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;
 #pragma mark - Scrolling
 - (void)scrollRowAtIndexPathToVisible:(NSIndexPath * __nonnull)indexPath;
 
+#pragma mark - Unavailable
+@property (nullable, weak) id <NSOutlineViewDelegate> delegate NS_UNAVAILABLE;
+@property (nullable, weak) id <NSOutlineViewDataSource> dataSource NS_UNAVAILABLE;
+
 @end

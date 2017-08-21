@@ -62,15 +62,17 @@
 // ------------------------------------------------------------------------------------------
 - (void)testTableViewDataSourceIsSelf
 {
-    XCTAssertNotNil(self.tableView.dataSource);
-    XCTAssertEqualObjects(self.tableView.dataSource, self.tableView);
+    NSOutlineView *outlineView = (NSOutlineView *)self.tableView;
+    XCTAssertNotNil(outlineView.dataSource);
+    XCTAssertEqualObjects(outlineView.dataSource, self.tableView);
 }
 
 
 - (void)testTableViewDelegateIsSelf
 {
-    XCTAssertNotNil(self.tableView.delegate);
-    XCTAssertEqualObjects(self.tableView.delegate, self.tableView);
+    NSOutlineView *outlineView = (NSOutlineView *)self.tableView;
+    XCTAssertNotNil(outlineView.delegate);
+    XCTAssertEqualObjects(outlineView.delegate, self.tableView);
 }
 
 
