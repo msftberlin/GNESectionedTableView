@@ -36,7 +36,7 @@
 
 // ------------------------------------------------------------------------------------------
 
-typedef void(^GNESectionedTableViewMoveCompletion)();
+typedef void(^GNESectionedTableViewMoveCompletion)(void);
 
 // ------------------------------------------------------------------------------------------
 

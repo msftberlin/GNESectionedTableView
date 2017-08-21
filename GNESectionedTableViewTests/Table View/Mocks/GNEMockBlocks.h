@@ -11,8 +11,8 @@
 
 #pragma mark - GNESectionedTableViewDataSource
 
-typedef void(^MockVoidBlock)();
-typedef NSArray *(^MockReturnArrayBlock)();
+typedef void(^MockVoidBlock)(void);
+typedef NSArray *(^MockReturnArrayBlock)(void);
 typedef void(^MockUnsignedIntegerBlock)(NSUInteger unsignedInteger);
 typedef void(^MockObjectBlock)(id object);
 typedef void(^MockObjectObjectBlock)(id object1, id object2);
@@ -20,7 +20,7 @@ typedef void(^MockObjectUnsignedIntegerBlock)(id object, NSUInteger unsignedInte
 typedef void(^MockViewUnsignedIntegerBlock)(NSView *view, NSUInteger section);
 typedef void(^MockViewIndexPathBlock)(NSView *view, NSIndexPath *indexPath);
 
-typedef NSUInteger(^MockNumberOfSectionsBlock)();
+typedef NSUInteger(^MockNumberOfSectionsBlock)(void);
 typedef NSUInteger(^MockNumberOfRowsBlock)(NSUInteger section);
 typedef NSView *(^MockViewAtIndexPathBlock)(NSIndexPath *indexPath);
 

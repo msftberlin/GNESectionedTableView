@@ -51,10 +51,10 @@ extern NSString  * _Nonnull  const GNEOutlineViewItemParentItemKey;
 
 @interface GNEOutlineViewItem : NSObject <NSSecureCoding, NSPasteboardReading, NSPasteboardWriting>
 
-@property (nonatomic, weak) id <GNEOutlineViewItemPasteboardWritingDelegate> pasteboardWritingDelegate;
+@property (nonatomic, weak) id <GNEOutlineViewItemPasteboardWritingDelegate> _Nullable pasteboardWritingDelegate;
 
 /// Parent item of this object.
-@property (nonatomic, weak) GNEOutlineViewParentItem *parentItem;
+@property (nonatomic, weak) GNEOutlineViewParentItem * _Nullable parentItem;
 
 /// Index path of the receiver if it is being dragged, otherwise nil.
 @property (nullable, nonatomic, strong, readonly) NSIndexPath *draggedIndexPath;
