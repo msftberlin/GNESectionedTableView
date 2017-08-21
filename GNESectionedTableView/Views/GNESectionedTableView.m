@@ -111,6 +111,8 @@ typedef NS_ENUM(NSUInteger, GNEDragLocation)
 @dynamic selectedIndexPath;
 @dynamic selectedIndexPaths;
 
+@dynamic dataSource;
+@dynamic delegate;
 
 // ------------------------------------------------------------------------------------------
 #pragma mark - Initialization
@@ -158,8 +160,8 @@ typedef NS_ENUM(NSUInteger, GNEDragLocation)
     
     _rowViewToIndexPathMap = [NSMutableDictionary dictionary];
     
-    self.dataSource = self;
-    self.delegate = self;
+    super.dataSource = self;
+    super.delegate = self;
     
     self.wantsLayer = YES;
     self.layerContentsRedrawPolicy = NSViewLayerContentsRedrawOnSetNeedsDisplay;
@@ -201,6 +203,9 @@ typedef NS_ENUM(NSUInteger, GNEDragLocation)
     
     _tableViewDataSource = nil;
     _tableViewDelegate = nil;
+
+    super.dataSource = nil;
+    super.delegate = nil;
 }
 
 
@@ -3858,33 +3863,6 @@ typedef NS_ENUM(NSUInteger, GNEDragLocation)
 - (BOOL)isUpdating
 {
     return (self.updateCount > 0);
-}
-
-
-// ------------------------------------------------------------------------------------------
-#pragma mark - NSOutlineView - Accessors
-// ------------------------------------------------------------------------------------------
-- (id <NSOutlineViewDataSource>)dataSource
-{
-    return self;
-}
-
-
-- (void)setDataSource:(id<NSOutlineViewDataSource> __unused)aSource
-{
-    [super setDataSource:self];
-}
-
-
-- (id <NSOutlineViewDelegate>)delegate
-{
-    return self;
-}
-
-
-- (void)setDelegate:(id<NSOutlineViewDelegate> __unused)anObject
-{
-    [super setDelegate:self];
 }
 
 
