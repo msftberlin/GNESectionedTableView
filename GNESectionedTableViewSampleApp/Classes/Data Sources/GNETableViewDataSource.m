@@ -225,7 +225,8 @@ static NSString * const kFooterCellViewIdentifier = @"com.goneeast.FooterCellVie
 - (void)p_performRandomUpdates
 {
     return;
-    
+
+#if 0
     if ([self.sections count] == 0)
     {
         [self p_insertRandomSections];
@@ -253,6 +254,7 @@ static NSString * const kFooterCellViewIdentifier = @"com.goneeast.FooterCellVie
             break;
         }
     }
+#endif
 }
 
 
@@ -759,10 +761,12 @@ didDragRowsAtIndexPaths:(NSArray *)fromIndexPaths
   heightForHeaderInSection:(NSUInteger __unused)section
 {
     return 22.0f;
-    
+
+#if 0
     NSArray *rowsArray = self.rows[section];
     
     return ((rowsArray.count > 0) ? 22.0f : GNESectionedTableViewInvisibleRowHeight);
+#endif
 }
 
 
